@@ -17,11 +17,11 @@ html {
 /* section-1 */
 .section-1 {
     width:100%;
-    background: url('./asseets/asset-1.webp');
+    background: url('./asseets/asset-large.webp');
     background-position: center 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 120vh;
     position: relative;
 }
 .section-6 {
@@ -126,22 +126,21 @@ nav li a {
     font-weight: bold;
 }
 
+
 .container-text {
-    max-width: 750px;
-    margin: 15vh auto;
+    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
-    gap: 40px;
+    align-items: center;
+    gap:20px;
 }
+.main-title-2 h2 {
+    font-size: 50px;
+}
+
 .section-2-container {
     height: 100%;
-}
-.container-text h1 {
-
-    font-size: 65px;
 }
 
 .start-btn {
@@ -541,18 +540,19 @@ nav li a {
         left: 0;
         position: fixed;
     }
-    .container-text {
-        margin: 30vh auto;
-    }
-    .container-text .main-title h1 {
-        font-size: 45px;
-    }
     .tools {
         margin-top: 122px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
 
+    }
+    .container-text .main-title-2 h2 {
+        font-size: 40px;
+
+    }
+    .container-text {
+        margin-top: 70px;
     }
     .third-row {
         display: flex;
