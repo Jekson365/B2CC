@@ -33,6 +33,7 @@
 }
 
 .title-font {
+    font-weight: bolder !important;
     font-family: "BPG Nino Mtavruli", sans-serif !important;
 }
 
@@ -567,6 +568,16 @@ nav li a {
     height: 300px;
     margin: 0 auto;
 }
+.title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin: 0 auto;
+    height: 30vw;
+    justify-content: center;
+    text-align: center;
+}
 
 .card-diff {
     margin: 20px;
@@ -800,6 +811,9 @@ nav li a {
         align-items: center;
         width: 80%;
         background-color: gray;
+    }
+    .title-content {
+        height: 190vw;
     }
     .pricing:nth-child(1) {
         width: 350px !important;
