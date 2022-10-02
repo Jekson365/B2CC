@@ -1,8 +1,4 @@
-var globe = document.querySelector(".globe")
 var langs = document.querySelector(".langs")
-globe.addEventListener("click",()=> {
-    langs.classList.toggle("show-langs")
-})
 
 // responsive navbar
 const navBar = document.querySelector(".navigation")
