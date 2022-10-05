@@ -1,0 +1,22 @@
+{
+  "name": "b2cc.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekson365/B2CC.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jekson365/B2CC.io/issues"
+  },
+  "homepage": "https://github.com/Jekson365/B2CC.io#readme",
+  "dependencies": {
+    "bpg-nino-mtavruli-bold": "^1.0.0"
+  }
+}
