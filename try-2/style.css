@@ -24,6 +24,7 @@
     background-size: cover;
     height: 120vh;
     width: 100%;
+    background-position-y: -50px;
     position: relative;
 }
 
@@ -80,6 +81,7 @@ nav ul {
 }
 
 header {
+   
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -565,7 +567,7 @@ nav li a {
     right: 50px;
     width: 300px;
 }
-
+    
 .main-title-container {
     width: 100%;
     flex-direction: column;
@@ -634,7 +636,6 @@ nav li a {
         font-size: 8vw;
     }
 }
-
 @media screen and (max-width:850px) {
     .sec-image {
         width: 40vh !important;
@@ -730,7 +731,6 @@ nav li a {
     .nav-toggle .bi-list {
         font-size: 30px;
     }
-
     nav {
         transition: 0.3s;
         padding-top: 50px;
