@@ -22,7 +22,7 @@
 
 body {
     width: 100%;
-    background: url('../boards/Component.png');
+    background: url('../boards/Component\ 1\ –\ 1.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -989,8 +989,24 @@ nav li a {
         width: 100%;
         align-items: center;
     }
+    .outer-box {
+        padding: 20px !important;
+        height: fit-content !important; 
+    }
+    .inside-box {
+        padding: 29px !important;
+
+    }
+    .calll {
+        top: -50%;
+    }
 }
 
+@media screen and (min-width:900px) {
+    .cover-images {
+        padding-top: 100px !important;
+    }
+}
 /* content section  */
 /* 
 
@@ -1367,7 +1383,7 @@ nav li a {
     }
 
     .dassd {
-        width: 50% !important;
+        width:90% !important;
     }
 
     .cover-images {
@@ -1391,7 +1407,7 @@ nav li a {
 
     .section-container {
         width: 95%;
-        grid-gap: 20px;
+        grid-gap: 90px;
     }
 
     .section-container {
