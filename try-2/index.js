@@ -11,3 +11,5 @@ closeNav.addEventListener("click",()=> {
     navigation.classList.remove("show-navbar")
 })
 
+
+console.log(document.body.style.height)

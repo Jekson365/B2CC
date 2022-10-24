@@ -14,6 +14,11 @@
     text-decoration: none;
 }
 
+body {
+    width: auto;
+}
+
+
 
 /* section - 1  */
 
@@ -24,7 +29,6 @@
     background-size: cover;
     height: 120vh;
     width: 100%;
-    background-position-y: -50px;
     position: relative;
 }
 
@@ -64,6 +68,7 @@ nav ul {
     justify-content: space-around;
     display: flex;
 }
+
 .rait {
     position: absolute !important;
     bottom: -40px;
@@ -81,7 +86,7 @@ nav ul {
 }
 
 header {
-   
+
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -369,10 +374,12 @@ nav li a {
     width: 0% !important;
     overflow: hidden;
 }
+
 .show-navbar {
     width: 100%;
     overflow: visible;
 }
+
 .show-langs {
     display: block;
 }
@@ -567,7 +574,7 @@ nav li a {
     right: 50px;
     width: 300px;
 }
-    
+
 .main-title-container {
     width: 100%;
     flex-direction: column;
@@ -579,6 +586,7 @@ nav li a {
     height: 300px;
     margin: 0 auto;
 }
+
 .title-content {
     display: flex;
     flex-direction: column;
@@ -589,7 +597,7 @@ nav li a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     justify-content: center;
     text-align: center;
 }
@@ -636,6 +644,7 @@ nav li a {
         font-size: 8vw;
     }
 }
+
 @media screen and (max-width:850px) {
     .sec-image {
         width: 40vh !important;
@@ -731,6 +740,7 @@ nav li a {
     .nav-toggle .bi-list {
         font-size: 30px;
     }
+
     nav {
         transition: 0.3s;
         padding-top: 50px;
@@ -825,33 +835,41 @@ nav li a {
         width: 80%;
         background-color: gray;
     }
+
     .title-content {
         height: 190vw;
     }
+
     .pricing:nth-child(1) {
         width: 350px !important;
     }
+
     .pricing:nth-child(2) {
         width: 350px !important;
     }
+
     .images {
-        bottom:-100px !important;
+        bottom: -100px !important;
         width: 377px !important;
     }
+
     .outer-box {
         width: 90% !important;
     }
+
     .cll {
         width: 334px !important;
     }
+
     .aud {
         width: 200px !important;
         height: 150px !important;
     }
-    
+
     #content-image {
         width: 21rem !important;
     }
+
     .toggle-bar {
         display: block;
     }
@@ -866,6 +884,38 @@ nav li a {
         display: block;
     }
 
+    .section-content {
+        background-size: auto;
+    }
+
+    .section-1-back {
+        background-position: inherit;
+    }
+
+    .section-2-back {
+        background-position: unset;
+    }
+
+    .section-3-back {
+        background-position: unset;
+    }
+
+    .section-4-back {
+        background-position: unset;
+    }
+
+    .section-6-back {
+        background-position: center;
+    }
+
+    .section-7-back {}
+
+
+}
+@media screen and (min-width:1500px) {
+    .section-content {
+        height: 1080px !important;
+    }
 }
 
 .navbar {
@@ -921,22 +971,54 @@ nav li a {
 /* content section  */
 
 
+.section-1-back {
+    background-image: url('../boards/section-1.png') !important;
+}
+
+.section-2-back {
+    background-image: url('../boards/section-2.png') !important;
+}
+
+.section-3-back {
+    background-image: url('../boards/section-3.png') !important;
+}
+
+.section-4-back {
+    background-image: url('../boards/section-4.png') !important;
+}
+
+.section-5-back {
+    background-image: url('../boards/section-5.png') !important;
+}
+
+.section-6-back {
+    background-image: url('../boards/section-6.png') !important;
+}
+
+.section-7-back {
+    background-image: url('../boards/section-7.png') !important;
+}
+
+.section-8-back {
+    background-image: url('../boards/Web1920-8.jpg') !important;
+}
+
 .section-content {
-    background-image: url("../asseets/asset-3.png");
     background-position: center 0px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 768px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-items: center;
     position: relative;
 }
 
 .section-container {
-    
+
     width: 90%;
     height: 55%;
     display: flex;
@@ -955,12 +1037,14 @@ nav li a {
     position: relative;
     height: 100%;
 }
+
 .phone {
-    width:100px !important;
+    width: 150px !important;
     position: absolute;
     bottom: 0;
     right: 50px;
-    }
+}
+
 .aud {
     border-radius: 20px;
     border: 10px solid black;
@@ -978,6 +1062,7 @@ nav li a {
     height: 500px;
     position: absolute;
 }
+
 .cover-images {
     position: relative;
     width: 100%;
@@ -993,7 +1078,6 @@ nav li a {
 }
 
 .section-content {
-    background-color: green;
     position: relative;
 }
 
@@ -1021,7 +1105,8 @@ nav li a {
     justify-content: center;
     background-color: rgb(245, 242, 246);
 }
-.inner-content {    
+
+.inner-content {
     width: 600px;
     height: 200px;
     display: flex;
@@ -1057,7 +1142,8 @@ nav li a {
 }
 
 #content-image {
-    width: 35vw;    
+    padding-top: 100px;
+    width: 500px;
 }
 
 
@@ -1070,7 +1156,7 @@ nav li a {
     padding: 40px 20px;
     background-color: rgb(239, 239, 239);
     border-radius: 15px;
-    height:max-content;    
+    height: max-content;
     margin: 4px;
     box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.407);
 }
@@ -1123,25 +1209,31 @@ nav li a {
     .title-font {
         font-size: 50px !important;
     }
+
     .desc-font {
         font-size: 25px !important;
     }
+
     .cll {
         width: 520px;
         height: fit-content;
     }
+
     .pricing {
         width: 600px;
         height: 300px !important;
     }
+
     .pricing:nth-child(2) {
         top: 200px;
         left: 400px;
     }
+
     .outer-box {
         width: 1200px !important;
         height: 400px;
     }
+
     .start {
         font-size: 25px;
     }
@@ -1187,6 +1279,7 @@ nav li a {
     background-color: rgb(220, 255, 250) !important;
 
 }
+
 .grn {
     background-color: #B0E2D7 !important;
 }
@@ -1209,12 +1302,13 @@ nav li a {
     height: 90%;
     box-shadow: 0 0 10px 0.1px rgba(0, 0, 0, 0.183);
 }
+
 .calll {
     position: absolute;
     top: 0;
     left: 0;
     width: 200px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
 }
 
@@ -1225,21 +1319,26 @@ nav li a {
         flex-direction: column;
         grid-gap: 60px;
     }
+
     .cover-images {
         width: 70%;
     }
+
     .calll {
         top: -13%;
         left: 50%;
     }
+
     .phone {
         right: 0;
         bottom: -20px;
     }
+
     .rait {
         width: 150px !important;
         right: -32px !important;
     }
+
     .section-container {
         width: 95%;
         grid-gap: 20px;
@@ -1277,6 +1376,7 @@ nav li a {
         .pricing {
             position: relative;
         }
+
         .inner-content {
             width: 1000px;
         }

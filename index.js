@@ -16,3 +16,6 @@ const globeIcon = document.querySelector(".resp-globe")
 globeIcon.addEventListener("click",()=> {
     document.querySelector(".langs").classList.toggle("show-langs")
 })
+
+
+console.log(document.querySelector("body").style.height)
