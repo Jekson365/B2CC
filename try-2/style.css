@@ -8,6 +8,9 @@
     src: url('./!kolxeti_96.ttf'), format('truetype');
     font-style: normal;
 }
+html {
+    overflow-x: hidden;
+}
 
 * {
     font-family: sans-serif;
@@ -24,6 +27,7 @@ body {
     width: 100%;
     background: url('../boards/Component\ 1\ –\ 1.png');
     background-size: cover;
+    overflow-x: hidden !important;
     background-repeat: no-repeat;
 }
 
@@ -906,9 +910,6 @@ nav li a {
         display: block;
     }
 
-    .section-content {
-        background-size: auto;
-    }
 
     .section-1-back {
         background-position: inherit;
@@ -1008,9 +1009,9 @@ nav li a {
     }
 }
 /* content section  */
-/* 
 
-.section-1-back {
+
+/* .section-1-back {
     background-image: url('../boards/section-1.png') !important;
 }
 
@@ -1047,7 +1048,7 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 768px;
-    width: 100%;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
