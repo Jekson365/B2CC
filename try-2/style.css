@@ -1364,6 +1364,9 @@ nav li a {
     height: 90%;
     box-shadow: 0 0 10px 0.1px rgba(0, 0, 0, 0.183);
 }
+.sddcc {
+    width: 500px;
+}
 
 .calll {
     position: absolute;
@@ -1423,7 +1426,6 @@ nav li a {
         .pricing:nth-child(1) {
             position: static;
             width: 400px;
-            height: 200px;
         }
 
         .inner-content {
@@ -1436,7 +1438,6 @@ nav li a {
         .pricing:nth-child(2) {
             position: static;
             width: 400px;
-            height: 200px;
         }
 
         .pricing {
@@ -1445,6 +1446,9 @@ nav li a {
 
         .inner-content {
             width: 1000px;
+        }
+        .sddcc {
+            width: 350px !important;
         }
 
     }
