@@ -1415,6 +1415,7 @@ nav li a {
     }
 
     .section-container {
+        align-items: center;
         flex-direction: column-reverse;
     }
 
