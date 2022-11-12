@@ -4,9 +4,11 @@
 @import url("//cdn.web-fonts.ge/fonts/bpg-rioni-vera/css/bpg-rioni-vera.min.css");
 
 @font-face {
+
     font-family: 'kolxeti';
     src: url('./!kolxeti_96.ttf'), format('truetype');
     font-style: normal;
+
 }
 
 html {
@@ -48,12 +50,19 @@ section {
 }
 body {
     width: 100%;
-    background: url('../boards/Component\ 1\ –\ 1.png');
+    /* background: url('../boards/Component\ 1\ –\ 1.png'); */
     background-size: cover;
     overflow-x: hidden !important;
     background-repeat: no-repeat;
 }
-
+.main {
+    width: 100%;
+    background: url('../boards/Component\ 1\ –\ 1.png');
+    background-size: cover;
+    overflow-x: hidden !important;
+    height: fit-content;
+    background-repeat: no-repeat;
+}
 .pad-container {
     padding: 100px 0;
 }
